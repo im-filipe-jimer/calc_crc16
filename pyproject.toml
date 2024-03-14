@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "calc-crc16"
+version = "0.1.0"
+description = "Formula for calculating CRC16 for LL and VL line packages"
+authors = ["Filipe Victor Ferreira <32365728+victor2f@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.4"
+black = "^24.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
